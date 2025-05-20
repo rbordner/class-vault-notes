@@ -791,6 +791,482 @@ Trading securities appear in the financial statements as follows:
 
 ```
 
+
+```ad-note
+title: Learning Oblective 12-4
+collapse: open
+Demonstrate how to identify and account for debt investments classified for reporting purposes as available-for-sale securities.
+
+
+```
+```ad-summary
+collapse: open
+# LO12-4: Accounting for Available-for-Sale (AFS) Debt Securities
+
+**1. Classification**  
+- Not held for immediate sale (Trading)  
+- Not held to maturity (HTM)  
+- Available to sell if cash needs arise or market is favorable  
+
+**2. Measurement**  
+- **Balance Sheet**: Report at **fair value** each reporting date  
+- Use a **Fair-Value Adjustment** contra-account to track difference from amortized cost  
+
+**3. Unrealized Holding Gains/Losses**  
+- **Excluded** from Net Income  
+- **Recorded** in Other Comprehensive Income (OCI)  
+- Accumulate in **Accumulated OCI (AOCI)** under Equity  
+
+**4. Adjusting to Fair Value**  
+Dr Fair-Value Adjustment XXX  
+Cr Unrealized Gain (OCI) XXX
+
+*(Reverse for losses: Dr Unrealized Loss (OCI); Cr Fair-Value Adjustment)*  
+
+**5. Sale of AFS Securities**  
+1. **Update FV adjustment** to sale date (OCI entry)  
+2. **Reclassify OCI → Net Income**  
+Dr AOCI (reclassification) XXX  
+Cr Fair-Value Adjustment XXX
+
+3. **Record sale**  
+Dr Cash XXX  
+Dr Discount (or Cr Premium) XXX  
+Cr Investment XXX  
+Cr Gain on Sale (Net Income) XXX
+
+
+**6. Financial-Statement Presentation**  
+- **Balance Sheet**: AFS investments at FV; AOCI shows cumulative unrealized gains/losses  
+- **Income Statement**: Interest revenue + **realized** gains/losses on sale  
+- **Comprehensive Income**: Includes OCI for unrealized gains/losses each period  
+
+	## 1. Balance Sheet Classification  
+- **Current vs. Noncurrent**  
+  - Trading, HTM, and AFS securities are classified based on expected holding period (current if likely to mature or be sold within one year).
+
+	## 2. Required Note Disclosures (per category, each year)  
+1. **Aggregate fair value** of all investments by category.  
+2. **Gross realized** and **unrealized holding gains**.  
+3. **Gross realized** and **unrealized holding losses**.  
+4. **Change** in net unrealized holding gains and losses.  
+5. **Amortized cost basis** by major security type (e.g., corporate debt, government debt).
+
+	## 3. Fair Value Hierarchy Disclosures  
+	
+For all Level 2 & 3 fair values, disclose:  
+- **Valuation techniques** used (e.g., discounted cash flows, matrix pricing).  
+- **Inputs** to those techniques (spread, yield curves, observable vs. unobservable data).  
+
+For Level 3 fair values, also disclose:  
+- **Significance** of unobservable inputs.  
+- **Sensitivity** analysis showing how changes in inputs affect fair value.
+
+	## 4. Additional Required Disclosures  
+- **Total gains or losses** for the period (realized + unrealized), indicating where they are included (Net Income vs. OCI).  
+- **Purchases, sales, issuances, and settlements** of investments.  
+- **Transfers** in and out of Level 3 category.
+
+	## 5. Example Disclosure Table (HP Inc. 2020)  
+	
+| Asset Category                    | Level 1 | Level 2 | Level 3 | Total  |
+|-----------------------------------|--------:|--------:|--------:|-------:|
+| **Cash Equivalents**              |     —   |  1,700  |   —    | 1,700  |
+| **Corporate Debt**                |  1,992  |    181  |   —    | 2,173  |
+| **Available-for-Sale Investments**|     —   |    169  |   —    |   169  |
+| **Marketable Equity & Mutual Funds** |   5   |     53  |   —    |    58  |
+| **Derivative Instruments**        |     —   |    195  |   —    |   195  |
+| **Total Assets**                  |  1,997  |  2,462  |   —    | 4,459  |
+
+> *Source: HP Inc., Note 9: Available-for-Sale Debt & Equity Investments*
+
+![[Pasted image 20250517183323.png]]
+```
+
+
+ ```ad-info
+title: Part B
+
+
+```
+
+
+```ad-abstract
+title: Learning Objective 12-5
+collapse: open
+# LO12-5: Accounting for Equity Investments (No Significant Influence)
+
+**When the investor owns less than 20% of voting stock** (no significant influence), treat equity securities like trading debt securities:
+
+1. **Classification**  
+   - Report as **current** or **noncurrent** asset depending on expected holding period.
+
+2. **Measurement**  
+   - **Initial**: Record at **cost** (purchase price + direct fees).  
+   - **Subsequent**: Carry at **fair value** each reporting date.
+
+3. **Unrealized Holding Gains/Losses**  
+   - Recognize **immediately** in **Net Income** (mark-to-market approach).
+
+4. **Dividends Received**  
+   - Recognize as **Dividend Income** in Net Income when declared.
+
+5. **Journal Entries**  
+   - **Purchase**  
+     ```  
+     Dr Equity Investment        XXX  
+       Cr Cash                    XXX  
+     ```  
+   - **Unrealized Gain (if fair value ↑)**  
+     ```  
+     Dr Equity Investment        XXX  
+       Cr Unrealized Gain (NI)    XXX  
+     ```  
+     *(Reverse for a loss)*  
+   - **Dividend Receipt**  
+     ```  
+     Dr Cash                     XXX  
+       Cr Dividend Income         XXX  
+     ```  
+   - **Sale**  
+     ```  
+     Dr Cash                     XXX  
+       Cr Equity Investment      XXX  
+       Cr/Dr Gain or Loss (NI)   XXX  
+     ```
+
+6. **Financial-Statement Presentation**  
+   - **Balance Sheet**: “Equity Investments” at **fair value** under assets.  
+   - **Income Statement**: Includes **Dividend Income**, **Unrealized Holding Gains/Losses**, and **Realized Gains/Losses** on sale.
+
+---
+
+> **Key Point:**  
+> Equity securities < 20% → **Fair Value through Net Income** (“FV–NI”) just like trading securities.  
+
+
+```
+
+```ad-abstract
+title: Learning Obective 12-6
+collapse: open
+# LO12-6: Accounting for Equity Investments (Equity Method)
+
+**When the investor owns 20%–50% of voting stock** (significant influence), use the **Equity Method**:
+
+---
+
+## 1. Classification  
+- **Equity-method investment** (noncurrent asset)
+
+## 2. Initial Measurement  
+- Record at **cost** (purchase price + direct acquisition fees).  
+
+## 3. Subsequent Measurement  
+- **Adjust the investment** carrying amount for your share of the investee’s **net income** and **dividends**:
+  - **Investor’s share of net income** → **increase** Investment  
+  - **Dividends received** → **decrease** Investment  
+
+## 4. Journal Entries  
+
+ (Equity Method)
+
+**When the investor owns 20%–50% of voting stock** (significant influence), use the **Equity Method**:
+
+| Step                         | Action                                                                 |
+|------------------------------|------------------------------------------------------------------------|
+| **Initial Measurement**      | Record at **cost** (purchase price + direct fees)                      |
+| **Subsequent Measurement**   | • **Increase** Investment for your share of investee **net income**<br>• **Decrease** Investment for **dividends received** |
+| **Presentation**             | • **Balance Sheet:** “Investment in Equity Securities” at adjusted cost<br>• **Income Statement:** “Equity in Net Income”; dividends and sale gains/losses in NI |
+
+## Journal Entries  
+
+| Event                         | Debit                                        | Credit                                 |
+|-------------------------------|----------------------------------------------|----------------------------------------|
+| **Purchase**                  | Investment in Equity Securities (cost)       | Cash                                   |
+| **Share of Net Income**       | Investment in Equity Securities (× % of NI)  | Equity in Net Income                   |
+| **Dividends Received**        | Cash (× % of dividends)                      | Investment in Equity Securities        |
+| **Sale of Investment**        | Cash                                         | Investment in Equity Securities        |
+|                               | Gain or Loss on Sale (Net Income)            |                                        |
+**Purchase**  
+     ```  
+     Dr Investment in equity securites        XXX  
+       Cr Cash                                    XXX  
+     ```  
+   - **Recognize Share of Net Income**  
+     ```  
+    Dr Investment in Equity Inv. (Investor’s % × NI)  XXX
+	  Cr Equity in Net Income (Investor’s % × NI)        XXX  
+     ```  
+     *(Reverse for a loss)*  
+   - **Record Cash Dividends Received**  
+     ```  
+     Dr Cash (Investor’s % × dividends)                       XXX
+	  Cr Investment in Equity Inv. (Investor’s % × dividends)    XXX 
+     ```  
+   - **Sale**  
+     ```  
+     Dr Cash                     XXX  
+     Dr/Dr Gain or Loss (NI)     XXX
+       Cr Equity Investment          XXX  
+       Cr/Dr Gain or Loss (NI)       XXX  
+     ```
+
+
+## 5. Financial-Statement Presentation
+- **Balance Sheet:** “Investment in Equity Securities” at **adjusted cost**.  
+- **Income Statement:** “Equity in Net Income” for share of earnings; dividends and gains/losses on sale included in NI.
+
+
+> **Key Point:** 
+> 	Under the Equity Method, your investment “steps into the shoes” of the investee—growing with their profits and shrinking with their dividends.  
+
+
+
+```
+
+```ad-abstract
+title: Learning Objective 12-7
+collapse: open
+Purchase Price Allocations & Further Equity-Method Adjustments
+When an investor’s cost to acquire an equity-method investment exceeds its share of the investee’s book value, additional adjustments are required to approximate consolidated results:
+
+---
+
+## 1. Identify the Differential  
+| Fair Value of Investee Net Assets | × Investor % | = Investor’s Share of FV Net Assets |  
+|-----------------------------------|-------------:|-------------------------------------:|  
+| Investee net assets (FV)          | 30% × \$5 000 000 = \$1 500 000         |  
+| Investee identifiable net assets  | 30% × \$3 600 000 = \$1 080 000         |  
+| **Differential**                  |               | **\$1 500 000 – \$1 080 000 = \$420 000** |  
+| – Identifiable asset step-up (e.g. buildings, land)          |               | \$450 000 total (e.g. \$300 000 buildings + \$150 000 land) |  
+| **Goodwill** (plug)               |               | **\$420 000 – \$450 000 = –\$30 000 (negative goodwill)** |
+
+> *If the differential exceeds the FV step-up to identifiable assets, the remainder is goodwill.*
+
+---
+
+## 2. Amortization of Asset Step-Up  
+If certain stepped-up assets (e.g. building) have finite lives, amortize the excess:
+
+- **Annual Depreciation Adjustment** = (Step-up amount ÷ Remaining useful life)  
+- **Journal Entry**  
+
+Dr Investment in Equity Affiliate XXX
+Cr Investment Revenue (equity in earnings) XXX
+
+*(Reduces the investor’s share of net income to mimic consolidated depreciation.)*
+
+---
+
+## 3. No Amortization for Land & Goodwill  
+- **Land**: not depreciated → no adjustment.  
+- **Goodwill**: not amortized (tested for impairment only) → no adjustment.
+
+---
+
+## 4. Adjust for Other Assets/Liabilities  
+If other investee assets/liabilities had FV ≠ book value (e.g. inventory, intangibles), adjust investor’s share of investee earnings in the period the investee sells or uses those assets:
+
+- **Journal Entry**  
+
+Dr Investment Loss (equity method) XXX
+Cr Investment in Equity Affiliate XXX
+
+
+---
+
+> **Key Point:** Equity-method investors must allocate any purchase differential to underlying net assets (and goodwill), amortize finite-lived assets, and mirror the investee’s depreciation and asset sales in their own earnings.
+
+
+
+```
+```ad-summary
+collapse: open
+
+
+```
+
+```ad-abstract
+title: Learning Objective 12-8
+collapse: open
+
+
+**Objective:** Give companies flexibility to report most financial assets & liabilities at fair value with changes in fair value flowing through net income—just like trading securities.
+
+---
+
+## 1. Election  
+- **When:** On the **purchase date** of the financial asset or liability.  
+- **Irrevocable:** Once made, it cannot be reversed for that instrument.
+
+## 2. Measurement & Presentation  
+- **Balance Sheet:** Carry the instrument at **fair value**.  
+- **Income Statement:** Record **all** unrealized holding gains and losses in **net income**.  
+- Cash flows: Buying/selling FVO instruments are **investing**, not operating.
+
+## 3. Why Use FVO?  
+- Eliminate mixed‐measurement models (e.g., HTM at amortized cost vs. trading at FV).  
+- Avoid inelegant accounting mismatches for instruments economically managed “at fair value.”
+
+---
+
+# LO12-9: U.S. GAAP vs. IFRS—Investments
+
+| Aspect                                    | U.S. GAAP                                   | IFRS (IFRS 9)                             |
+|-------------------------------------------|---------------------------------------------|-------------------------------------------|
+| **Debt Classification**                   | HTM / AFS / Trading                         | Amortized Cost / FVOCI / FVPL             |
+| **Equity Classification (no significant influence)** | FV through NI (trading-style)           | FVPL* / FVOCI**                           |
+| **Impairment Model (HTM & AFS)**          | CECL for credit losses (HTM & AFS); IFRS‎-style impairment for AFS only | Expected-credit-loss (ECL) model for AC & FVOCI |
+| **FVOCI Equity Recoveries**               | Unrealized gains/losses in net income if HTM or Fair-value option | Elected FVOCI equity: gains/losses in OCI; no recycling to P&L |
+| **Transfers Between Categories**          | Reclassify at FV, follow destination rules  | Permitted only if business-model changes; measured at FV on transfer |
+| **Special Industries**                    | Broker-dealers, investment companies allowed special models | No industry carve-outs—uniform financial-instrument model |
+
+\* Default for equity under IFRS; companies can optionally present some equity at FVOCI.  
+\** FVOCI election for debt only if cash-flow and business-model criteria met.
+
+
+```
+
+```ad-info
+collapse: open
+
+# LO12-4: Available-for-Sale (AFS) Debt Securities
+
+**1. Classification**  
+- Debt investments **not** HTM and **not** trading  
+- Held with flexibility to sell if needed; reported as current or noncurrent
+
+**2. Measurement**  
+- **Balance Sheet:** at **fair value**  
+- **Contra‐asset:** “Fair-Value Adjustment” tracks difference vs. amortized cost  
+
+**3. Unrealized Gains & Losses**  
+- **Not** in Net Income  
+- Recognized immediately in **OCI**  
+- Accumulate in **AOCI** within Equity
+
+**4. Journal Entry to Adjust to Fair Value**  
+
+Dr Fair-Value Adjustment XXX
+Cr Unrealized Gain (OCI) XXX
+
+*(Reverse for unrealized loss: Dr Unrealized Loss (OCI); Cr Fair-Value Adjustment)*
+
+**5. Sale of AFS Securities**  
+1. **Update FV** to sale date → OCI entry  
+2. **Reclassify** OCI → Net Income  
+
+Dr AOCI (reclassification) XXX
+Cr Fair-Value Adjustment XXX
+
+3. **Record Sale**  
+
+Dr Cash XXX
+Dr Discount on Bonds (or Cr Premium) XXX
+Cr Investment in Bonds XXX
+Cr Gain on Sale (NI) XXX
+
+
+**6. Presentation**  
+- **Balance Sheet:** “Investment in AFS Securities” at FV; AOCI shows cumulative unrealized gains/losses  
+- **Income Statement:** Interest revenue + **realized** gains/losses on sale  
+- **Statement of Comprehensive Income:** OCI line for unrealized holding gains/losses  
+
+---
+
+# AFS Impairment Decision Tree
+
+```text
+      ┌───────────────────────────────┐
+      │ Is Fair Value < Amortized Cost? │
+      └───────────────┬───────────────┘
+                      │ YES
+                      ▼
+┌─────────────────────────────────────────────────────────┐
+│ Does investor intend to sell before FV recovery, OR    │
+│ believes sale likely before recovery?                 │
+└───────────────┬───────────────────────┬────────────────┘
+              │ YES                   │ NO
+              ▼                       ▼
+┌─────────────────────────┐     ┌──────────────────────────────┐
+│ Recognize full          │     │ Is part of the loss a        │
+│ unrealized loss in NI   │     │ **credit loss** (credit risk)?│
+│ and write down to FV     │     └───────────────┬───────────────┘
+└─────────────────────────┘                     │ YES       │ NO
+                                                ▼           ▼
+                                     ┌────────────────┐ ┌────────────────────────────┐
+                                     │ Recognize      │ │ Recognize **noncredit**    │
+                                     │ credit-loss in │ │ loss in OCI & write down   │
+                                     │ NI + set       │ │ to FV adjustment           │
+                                     │ allowance for  │ └────────────────────────────┘
+                                     │ credit losses  │
+                                     └────────────────┘
+
+    NI = Net Income
+
+    OCI = Other Comprehensive Income
+
+    FV = Fair Value
+
+Notes:
+
+    Credit losses are limited to the amount by which FV < amortized cost.
+
+    Future recoveries of noncredit losses remain in OCI (no reversal in NI).
+
+    Credit-loss allowances are reversed in NI if recoveries occur.
+
+```
+
+```ad-hint
+title: Helpful
+collapse: open
+
+# 📦 Additional Resources & Study Aids for Chapter 12
+
+To deepen your understanding and make your Markdown vault even more powerful, consider adding:
+
+---
+
+## 1. Key Terms Glossary  
+```markdown
+### Key Terms
+- **Amortized Cost**  
+  Purchase price adjusted for premium/discount amortization.
+- **Fair Value**  
+  The price at which an asset could be sold in an orderly transaction.
+- **OCI / AOCI**  
+  Other Comprehensive Income and its balance-sheet counterpart.
+- **Effective‐Interest Rate Method**  
+  Spreads premium or discount to yield a constant market rate.
+- **Equity Method**  
+  “Step-into-their-shoes” accounting for 20–50% ownership.
+- **CECL**  
+  Current Expected Credit Loss model for debt impairments.
+
+2. Formulas & Mnemonics
+
+### Quick-Hit Formulas
+- **Bond Price** = PV(coupons) + PV(principal)
+- **PV(coupons)** = C × \[1 − (1+r)^–n\] / r  
+- **PV(principal)** = F / (1+r)^n
+- **D > C** mnemonic for Discounted bonds: **Revenue > Coupon**
+
+### Mnemonics
+- **LOCK** your HTM:  
+  **L**ong-term, **O**nly interest, **C**ost basis, **K**eep out FV gains/losses
+- **CAP** your Bond Price:  
+  **C**oupons (annuity) + **A** lump sum (principal) = **P**rice
+
+```
+
+---
+
+
+
+
+
 ---
 # Chapter 13: Current Liabilities and Contingencies
 ...
