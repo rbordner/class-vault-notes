@@ -736,8 +736,6 @@ net income.
 
 ![[Pasted image 20250515140320.png]]
 ```
-
-
 ```ad-abstract
 title: Sale of Trading Security Investments
 collapse: open
@@ -882,15 +880,12 @@ For Level 3 fair values, also disclose:
 
 ![[Pasted image 20250517183323.png]]
 ```
-
-
+---
  ```ad-info
 title: Part B
 
 
 ```
-
-
 ```ad-abstract
 title: Learning Objective 12-5
 collapse: open
